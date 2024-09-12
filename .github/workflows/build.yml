@@ -45,7 +45,7 @@ jobs:
         uses: redhat-actions/buildah-build@v2
         with:
           containerfiles: |
-            main-os/Containerfile
+            Containerfile
           image: work-os
 
       # Workaround bug where capital letters in your GitHub username make it impossible to push to GHCR.
